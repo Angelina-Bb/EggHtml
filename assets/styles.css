@@ -42,6 +42,7 @@ footer .container {
     gap: 20px;
 }
 
+
 .columns-container .col ul {
     list-style-type: none;
     padding: 0;
@@ -231,6 +232,13 @@ section#hero .container {
     object-position: center center;
 }
 
+.thumbnail {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
 
 .product-description-block {
     flex: 1;
@@ -302,4 +310,38 @@ section#hero .container {
 .product-tax-policy {
     font-size: 11px;
     font-weight: 300;
+}
+
+.size-columns {
+    max-width: 33%;
+    margin: 30px 0 30px 0;
+}
+
+.button-style {
+    height: 50px;
+    color: #ffffff;
+    width: 90px;
+    border: none;
+    background-color: #ff3b3c;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.button-style:hover {
+    background-color: #383838;
+}
+
+.encuadre {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.input-number {
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 60px;
+    box-sizing: border-box;
 }
